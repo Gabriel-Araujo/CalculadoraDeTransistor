@@ -1,0 +1,18 @@
+.List {
+    grid-area: List;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    list-style-type: none;
+}
+
+.List li a {
+    text-decoration: none;
+    color: black;
+    transition-duration: .2s;
+}
+
+.List li a:hover {
+    color: dodgerblue;
+}

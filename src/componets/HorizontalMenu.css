@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+}
+
+.menuItem {
+    transform: translate(2vw, 0);
+    text-decoration: none;
+    color: black;
+    transition-duration: .5ms;
+}
+
+.menuItem:hover {
+    color: dodgerblue;
+}
